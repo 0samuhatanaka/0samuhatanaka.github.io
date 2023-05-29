@@ -5,19 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>App Launcher</title>
-  <script>
-    window.onload = function() {
-      setTimeout(function() {
-        window.location = "jp.hituji.mobile.app.develop://";
-      }, 100);
-
-      setTimeout(function() {
-        document.getElementById("message").innerHTML = "アプリがインストールされていません";
-      }, 3000);
-    }
-  </script>
 </head>
 <body>
-  <h1 id="message">アプリを起動しています...</h1>
+  <meta http-equiv="refresh" content="0.1;url=jp.hituji.mobile.app.develop://">
+  <h1>アプリ起動</h1>
 </body>
 </html>
